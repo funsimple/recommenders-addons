@@ -1,0 +1,139 @@
+toc:
+- title: tfra
+  section:
+  - title: Overview
+    path: /recommenders-addons/api_docs/python/tfra
+- title: tfra.dynamic_embedding
+  section:
+  - title: Overview
+    path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding
+  - title: CuckooHashTable
+    path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/CuckooHashTable
+  - title: DynamicEmbeddingOptimizer
+    path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/DynamicEmbeddingOptimizer
+  - title: FrequencyRestrictPolicy
+    path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/FrequencyRestrictPolicy
+  - title: GraphKeys
+    path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/GraphKeys
+  - title: ModelMode
+    path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/ModelMode
+  - title: RestrictPolicy
+    path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/RestrictPolicy
+  - title: TimestampRestrictPolicy
+    path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/TimestampRestrictPolicy
+  - title: TrainableWrapper
+    path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/TrainableWrapper
+  - title: TrainableWrapper.SaveSliceInfo
+    path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/TrainableWrapper/SaveSliceInfo
+  - title: Variable
+    path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/Variable
+  - title: create_slots
+    path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/create_slots
+  - title: embedding_lookup
+    path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/embedding_lookup
+  - title: embedding_lookup_sparse
+    path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/embedding_lookup_sparse
+  - title: embedding_lookup_unique
+    path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/embedding_lookup_unique
+  - title: enable_inference_mode
+    path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/enable_inference_mode
+  - title: enable_train_mode
+    path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/enable_train_mode
+  - title: get_model_mode
+    path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/get_model_mode
+  - title: get_variable
+    path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/get_variable
+  - title: patch_on_tf
+    path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/patch_on_tf
+  - title: safe_embedding_lookup_sparse
+    path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/safe_embedding_lookup_sparse
+  - title: python
+    section:
+    - title: Overview
+      path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/python
+    - title: ops
+      section:
+      - title: Overview
+        path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/python/ops
+      - title: cuckoo_hashtable_ops
+        section:
+        - title: Overview
+          path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/python/ops/cuckoo_hashtable_ops
+      - title: dynamic_embedding_ops
+        section:
+        - title: Overview
+          path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/python/ops/dynamic_embedding_ops
+        - title: tf_export
+          path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/python/ops/dynamic_embedding_ops/tf_export
+      - title: dynamic_embedding_optimizer
+        section:
+        - title: Overview
+          path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/python/ops/dynamic_embedding_optimizer
+      - title: dynamic_embedding_variable
+        section:
+        - title: Overview
+          path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/python/ops/dynamic_embedding_variable
+        - title: default_partition_fn
+          path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/python/ops/dynamic_embedding_variable/default_partition_fn
+        - title: make_partition
+          path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/python/ops/dynamic_embedding_variable/make_partition
+      - title: restrict_policies
+        section:
+        - title: Overview
+          path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/python/ops/restrict_policies
+      - title: tf_patch
+        section:
+        - title: Overview
+          path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/python/ops/tf_patch
+        - title: device_function
+          path: /recommenders-addons/api_docs/python/tfra/dynamic_embedding/python/ops/tf_patch/device_function
+- title: tfra.embedding_variable
+  section:
+  - title: Overview
+    path: /recommenders-addons/api_docs/python/tfra/embedding_variable
+  - title: AdagradOptimizer
+    path: /recommenders-addons/api_docs/python/tfra/embedding_variable/AdagradOptimizer
+  - title: AdamOptimizer
+    path: /recommenders-addons/api_docs/python/tfra/embedding_variable/AdamOptimizer
+  - title: EmbeddingVariable
+    path: /recommenders-addons/api_docs/python/tfra/embedding_variable/EmbeddingVariable
+  - title: GradientDescentOptimizer
+    path: /recommenders-addons/api_docs/python/tfra/embedding_variable/GradientDescentOptimizer
+  - title: embedding_variable_ops
+    section:
+    - title: Overview
+      path: /recommenders-addons/api_docs/python/tfra/embedding_variable/embedding_variable_ops
+  - title: python
+    section:
+    - title: Overview
+      path: /recommenders-addons/api_docs/python/tfra/embedding_variable/python
+    - title: ops
+      section:
+      - title: Overview
+        path: /recommenders-addons/api_docs/python/tfra/embedding_variable/python/ops
+    - title: optimizers
+      section:
+      - title: Overview
+        path: /recommenders-addons/api_docs/python/tfra/embedding_variable/python/optimizers
+      - title: adagrad
+        section:
+        - title: Overview
+          path: /recommenders-addons/api_docs/python/tfra/embedding_variable/python/optimizers/adagrad
+      - title: adam
+        section:
+        - title: Overview
+          path: /recommenders-addons/api_docs/python/tfra/embedding_variable/python/optimizers/adam
+      - title: gradient_descent
+        section:
+        - title: Overview
+          path: /recommenders-addons/api_docs/python/tfra/embedding_variable/python/optimizers/gradient_descent
+- title: tfra.register
+  section:
+  - title: Overview
+    path: /recommenders-addons/api_docs/python/tfra/register
+  - title: register_all
+    path: /recommenders-addons/api_docs/python/tfra/register/register_all
+  - title: register_custom_kernels
+    path: /recommenders-addons/api_docs/python/tfra/register/register_custom_kernels
+  - title: register_keras_objects
+    path: /recommenders-addons/api_docs/python/tfra/register/register_keras_objects
